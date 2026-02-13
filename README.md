@@ -14,13 +14,13 @@
 <i>Oracle Virtual Machine</i> adalah simulasi mesin komputer 
 yang dapat menjalakan
 <b>system operasi</b> 
-lainya seperti OS<b>windows XP</b> yang paling stabil di masa nya
+lainya seperti OS <b>windows XP</b> yang paling stabil di masa nya.
 </p>
 
 ![image](HUB_1.png)
 <i>(gbr.1) ScreenShoot Laptop Lenovo</i>
 <br/>
-<b>ini penampakan virtual Machine
+<b>ini penampakan virtual Machine.
 </b>
 <br>
 
@@ -28,14 +28,14 @@ lainya seperti OS<b>windows XP</b> yang paling stabil di masa nya
 <p align=justify>
 RAP editor adalah Aplikasi Gratis yg cukup lengkap
 dan cukup baik jika berpasangan dgn <b>macro OBJASM32.</b>
-utk membangun object orientation programming
+utk membangun object orientation programming.
 </p>
 
 ![image](HUB_2.png)
 <i>(gbr.2) ScreenShoot Laptop Lenovo</i>
 <br/>
-<b>Pilih browser standar android, biasanya adalah
- chrome</b>
+<b>Pilihan RAP editor yg cukup bagus 
+untuk menulis kode-kode mesin.</b>
 <br>
 
 <p align=justify>
