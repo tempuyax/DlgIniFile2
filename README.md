@@ -2,7 +2,7 @@
 
 ```
    Editor 	: tempuyax (Pahor Mustaly)
-   Compiler     : Macro Assambler 32 bit
+   Compiler     : (MASM32) Macro Assambler 32 bit
    Text Editor  : RAP
    Date 	: FEB 2026
    Country      : Republic of Indonesia
@@ -14,24 +14,25 @@
 <i>Oracle Virtual Machine</i> adalah simulasi mesin komputer 
 yang dapat menjalakan
 <b>system operasi</b> 
-lainya seperti contoh ini adalah <b>windows XP</b>
+lainya seperti OS<b>windows XP</b> yang paling stabil di masa nya
 </p>
 
 ![image](HUB_1.png)
-<i>(gbr.1) ScreenShoot Oppo A55</i>
+<i>(gbr.1) ScreenShoot Laptop Lenovo</i>
 <br/>
-<b>Melalui google search, cari github dan pilih
-untuk membuka web nya</b>
+<b>ini penampakan virtual Machine
+</b>
 <br>
 
-- **Membuka github.com**
+- **Menulis Code dgn RAP editor**
 <p align=justify>
-Tekan kata github dari hasil pencarian dan pilih 
-chrome browser di window bagian bawah.
+RAP editor adalah Aplikasi Gratis yg cukup lengkap
+dan cukup baik jika berpasangan dgn <b>macro OBJASM32.</b>
+utk membangun object orientation programming
 </p>
 
 ![image](HUB_2.png)
-<i>(gbr.2) ScreenShoot Oppo A55</i>
+<i>(gbr.2) ScreenShoot Laptop Lenovo</i>
 <br/>
 <b>Pilih browser standar android, biasanya adalah
  chrome</b>
