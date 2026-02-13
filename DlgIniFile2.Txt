@@ -1,0 +1,41 @@
+RichEdit         db  'RichEdit20A',0
+RichEdDLL        db  'RICHED20.DLL',0
+FontNameC        db  'Courier New',0
+FontNameS        db  'Tahoma',0
+
+lf               LOGFONT        <?>
+charF            CHARFORMAT2    <?>
+
+;---------- [Create the Edit control] ----------
+         INVOKE     CreateWindowEx, NULL, addr RichEdit, NULL,\
+                    WS_VISIBLE or WS_CHILD or ES_LEFT or ES_MULTILINE or\
+                    WS_BORDER or ES_AUTOVSCROLL,\
+                    0, 0, 0, 0, hwnd, EditID, hInst, NULL
+            mov     hREdit, eax
+---------- [Create the Edit font] ----------
+         INVOKE     lstrcpy, addr lf.lfFaceName, addr FontNameC
+            mov     lf.lfHeight, -9
+            mov     lf.lfWidth, 0
+            mov     lf.lfWeight, 600
+         INVOKE     CreateFontIndirect, addr lf
+            mov     hFont, eax
+
+         INVOKE     SendMessage, hREdit, EM_EXLIMITTEXT, 0, 100000
+         INVOKE     SetFocus, hREdit
+
+;---------- [Set back ground and text colors] ----------
+         INVOKE     SendMessage, hREdit, WM_SETFONT, hFont, 1
+         INVOKE     SendMessage, hREdit, EM_SETBKGNDCOLOR, 0, 00000000h
+         INVOKE     lstrcpy, addr charF.szFaceName, addr FontNameC
+            mov     charF.cbSize, sizeof charF;
+            mov     charF.crTextColor, 00ffff00h
+            mov     charF.crBackColor, 00000000h
+            mov     charF.yHeight, 180
+            mov     charF.dwEffects, 0 ;CFE_BOLD
+            mov     charF.dwMask, CFM_FACE or CFM_SIZE or CFM_COLOR or CFM_BOLD
+         INVOKE     SendMessage, hREdit, EM_SETCHARFORMAT, SCF_ALL, addr charF
+
+         INVOKE     GetCurrentDirectory, sizeof CurDir, addr CurDir
+         INVOKE     lstrcat, addr CurDir, addr szReg
+         INVOKE     GetPrivateProfileString, addr szInfo, addr szInfoT, addr szNULL, addr szBuff, 255, addr CurDir
+         INVOKE     SendMessage, hREdit, WM_SETTEXT, 0, addr szBuff
