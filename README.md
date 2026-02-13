@@ -1,26 +1,20 @@
-#### HORskin
+#### DlgIniFile2
 
 ```
    Editor 	: tempuyax (Pahor Mustaly)
-   Compiler     : Macro Assambler
+   Compiler     : Macro Assambler 32 bit
    Text Editor  : RAP
    Date 	: FEB 2026
    Country      : Republic of Indonesia
    State        : North Borneo  
 ```
 ---
-- **Mencari github.com**
+- **oracle virtual machine**
 <p align=justify>
-Repo ini adalah contoh cara 
-menggunakan interaksi server 
-<b>github.com</b> 
-menggunakan perintah <b>git</b> di lokal 
-<i>system android</i>. Dengan adanya aplikasi 
-imulasi text command, yaitu <b><i>termux</i></b>, 
-maka git dapat berjalan dengan baik, 
-sama seperti menggunakan PC biasa yang
-dilakukan para programer di seluruh 
-dunia.
+<i>Oracle Virtual Machine</i> adalah simulasi mesin komputer 
+yang dapat menjalakan
+<b>system operasi</b> 
+lainya seperti contoh ini adalah <b>windows XP</b>
 </p>
 
 ![image](HUB_1.png)
